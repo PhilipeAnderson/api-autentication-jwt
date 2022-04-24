@@ -4,9 +4,9 @@
   "description": "Microservice Authentication using JWT",
   "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./",
-    "build": "tsc -p ."
+    "build": "tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Philipe Anderson | Phillinks",
   "license": "ISC",
