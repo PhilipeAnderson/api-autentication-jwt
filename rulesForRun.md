@@ -5,10 +5,8 @@ Para rodar o projeto use:
 Para rodar automaticamente use:
 => npm run dev
 
-
-
-
-
 npm run build = tsc -p . = Pega o diretório atual em . e passa para a pasta ./dist compilado/convertido
 tsc -w = watchTypescript
 tsc ./ = ?
+
+<!-- "https://web.dio.me/lab/explorando-o-estilo-arquitetural-rest-com-nodejs/learning/bf6320bf-5a47-46ca-8dbf-f9eadfad51c4" -->
