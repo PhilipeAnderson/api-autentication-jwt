@@ -1,5 +1,5 @@
 {
-  "name": "api-autentication-jwt",
+  "name": "api-authentication-jwt",
   "version": "1.0.0",
   "description": "Microservice Authentication using JWT",
   "main": "./dist/index.js",
