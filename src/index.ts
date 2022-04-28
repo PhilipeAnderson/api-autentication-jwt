@@ -8,6 +8,7 @@ const app = express();
 //Settings
 app.use(express.json());  //Parse data in Json
 app.use(morgan('dev'));   //Return status code for Debug
+app.use(express.urlencoded({ extended: true }));
 
 //Routes
 app.use(userRoute);
