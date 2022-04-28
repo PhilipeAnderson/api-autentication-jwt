@@ -1,5 +1,6 @@
-import express, { Request, Response, NextFunction} from 'express';
+import express from 'express';
 import morgan from 'morgan';
+import statusRoute from './routes/status';
 import userRoute from './routes/users';
 
 //Application
@@ -12,6 +13,7 @@ app.use(express.urlencoded({ extended: true }));
 
 //Routes
 app.use(userRoute);
+app.use(statusRoute)
 
 //Server
 app.listen(3333, () => {
