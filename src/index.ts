@@ -13,11 +13,9 @@ app.use(express.urlencoded({ extended: true }));
 
 //Routes
 app.use(userRoute);
-app.use(statusRoute)
+app.use(statusRoute);
 
 //Server
 app.listen(3333, () => {
-  console.log('Server Working | Port:3333')
-})
-
-
+  console.log('Server Working | Port:3333');
+});
