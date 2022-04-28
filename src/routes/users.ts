@@ -29,6 +29,9 @@ usersRoute.put('/users/:uuid', (req: Request<{ uuid: string }>, res: Response, n
   res.status(StatusCodes.OK).send(modifiedUser)
 });
 
+//delete /users/:uuid
+usersRoute.delete('/users/:uuid', (req: Request<{ uuid: string }>, res: Response, next: NextFunction) => {
+  res.status(StatusCodes.OK);
+});
 
 export default usersRoute;
-
