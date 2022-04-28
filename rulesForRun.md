@@ -1,3 +1,5 @@
+npm run dev => Roda o projeto
+
 Para rodar o projeto use:
 => npm run build => compila
 => node ./dist/index.js => roda
