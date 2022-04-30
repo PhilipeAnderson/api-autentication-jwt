@@ -1,15 +1,25 @@
-npm run dev => Roda o projeto
+# Arquitetura de Autenticação com TypeScript Node e JWT
+## Rodar Typescript
 
-Para rodar o projeto use:
-=> npm run build => compila
-=> node ./dist/index.js => roda
+  **Automático**  
+    => npm run dev => Roda o projeto
+  
+  **Manuais**  
+    =>  npm run build => compila  
+    =>  node ./dist/index.js => roda  
+  
+  **Mais comandos sobre Typescript Init**  
+    =>  npm run build = tsc -p . = Pega o diretório atual em . e passa para a pasta ./dist compilado/convertido  
+    =>  tsc -w = watchTypescript = Escuta tudo que é executado no programa em tempo de execução para debug  
+    =>  tsc --init = Cria o arquivo tsconfig.json  
+    =>  tsc ./ = ?  
 
-Para rodar automaticamente use:
-=> npm run dev
+### 01 Express
 
-npm run build = tsc -p . = Pega o diretório atual em . e passa para a pasta ./dist compilado/convertido
-tsc -w = watchTypescript = Escuta tudo que é executado no programa em tempo de execução para debug
-tsc --init = Cria o arquivo tsconfig.json
-tsc ./ = ?
+  _Instale o Express_
 
-<!-- "https://web.dio.me/lab/explorando-o-estilo-arquitetural-rest-com-nodejs/learning/bf6320bf-5a47-46ca-8dbf-f9eadfad51c4" -->
+### 02 Instale pg
+
+  _Instale o PG_
+  _Abra um conexão_
+  <!-- https://www.node-postgres.com/api/poll -->

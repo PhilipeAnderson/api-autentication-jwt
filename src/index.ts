@@ -1,5 +1,7 @@
 import express from 'express';
 import morgan from 'morgan';
+
+//Routes
 import statusRoute from './routes/status';
 import userRoute from './routes/users';
 
