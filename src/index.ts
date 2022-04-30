@@ -3,6 +3,8 @@ import morgan from 'morgan';
 import statusRoute from './routes/status';
 import userRoute from './routes/users';
 
+//Up to this point here are the Basics for running an API
+
 //Application
 const app = express();
 
